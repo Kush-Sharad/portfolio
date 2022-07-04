@@ -5,11 +5,14 @@
 	box-sizing: border-box;
 }
 .hero{
+	background-color: rgb(99, 55, 202);
 	height: 100vh;
 	width: 100%;
-	background-image: url(../background.jpeg);
-	background-size: cover;
-	background-position: center;
+	background-image: url(OIP.jpg);
+	background-size: 500px 500px;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-position: right;
 }
 nav{
 	display: flex;
@@ -20,7 +23,7 @@ nav{
 	padding-right: 8%;
 }
 .logo{
-	color: white;
+	color: rgb(255, 49, 49);
 	font-size: 35px;
 	letter-spacing: 1px;
 	cursor: pointer;
@@ -28,21 +31,7 @@ nav{
 span{
 	color: #f9004d;
 }
-nav ul li{
-	list-style-type: none;
-	display: inline-block;
-	padding: 10px  25px;
-}
-nav ul li a{
-	color: white;
-	text-decoration: none;
-	font-weight: bold;
-	text-transform: capitalize;
-}
-nav ul li a:hover{
-	color: #f9004d;
-	transition: .4s;
-}
+
 .btn{
 	background-color:#f9004d;
 	color: white;
@@ -67,8 +56,13 @@ h1{
 	margin: 20px 0px 20px;
 	font-size: 75px;
 }
-h3{
+h2{
 	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+h3{
+	color: rgb(254, 249, 159);
 	font-size: 25px;
 	margin-bottom: 50px;
 }
@@ -160,7 +154,7 @@ button:hover{
 	cursor: pointer;
 }
 
-.service{
+.Project{
 	background: #623380;
 	width: 100%;
 	padding: 100px 0px;
@@ -179,7 +173,7 @@ button:hover{
 	min-height: 400px;
 }
 .card{
-	height: 365px;
+	height: 465px;
 	width: 335px;
 	padding: 20px 35px;
 	background: #5b4164;
@@ -223,6 +217,43 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+.my-skill{
+	width: 100%;
+	height: 690px;
+	background: #9a79aa;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+.my-skill p{
+	color:lemonchiffon;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+* {box-sizing:border-box}
+
+
+.container {
+  width: 50%; 
+  background-color: #ddd; 
+}
+
+.skills {
+  text-align: right;
+  padding-top: 10px; 
+  padding-bottom: 10px; 
+  color: white; 
+}
+.c {width: 70%; background-color: #f83bfb;}
+.cpp {width: 85%; background-color: #04AA6D;}
+.html {width: 90%; background-color: #2196F3;} 
+.css {width: 70%; background-color: #f44336;} 
+.js {width: 60%; background-color: #621d1d;} 
+
 .contact-me{
 	width: 100%;
 	height: 290px;
@@ -253,6 +284,7 @@ h5{
 	border: 2px solid #f9004d;
 	cursor: pointer;
 }
+
 footer{
 	position: relative;
 	width: 100%;
@@ -266,7 +298,7 @@ footer{
 footer p:nth-child(1){
 	font-size: 30px;
 	color: white;
-	margin-bottom: 20px;
+	margin-bottom: 0px;
 	font-weight: bold;
 }
 footer p:nth-child(2){
@@ -287,7 +319,7 @@ footer p:nth-child(2){
 	justify-content: center;
 	background:  #f9004d;
 	border-radius: 50%;
-	margin: 22px 10px;
+	margin: 45px 10px;
 	color: white;
 	text-decoration: none;
 	font-size: 20px;
